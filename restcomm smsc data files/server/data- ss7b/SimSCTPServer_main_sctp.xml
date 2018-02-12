@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<connectdelay value="10000"/>
+<servers>
+	<server name="Server_main" started="true" hostAddress="192.168.1.70" hostPort="8010" ipChannelType="0" acceptAnonymousConnections="false" maxConcurrentConnectionsCount="0" extraHostAddresseSize="0">
+		<associations>
+			<string value="ServerAss_main"/>
+		</associations>
+	</server>
+</servers>
+<associations>
+	<name value="ServerAss_main"/>
+	<association name="ServerAss_main" assoctype="SERVER" hostPort="0" peerAddress="192.168.1.70" peerPort="8000" serverName="Server_main" ipChannelType="0" extraHostAddresseSize="0"/>
+</associations>

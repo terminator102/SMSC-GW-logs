@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<connectdelay value="5000"/>
+<servers>
+	<server name="serv1" started="false" hostAddress="127.0.0.1" hostPort="8012" ipChannelType="0" acceptAnonymousConnections="false" maxConcurrentConnectionsCount="0" extraHostAddresseSize="0">
+		<associations/>
+	</server>
+	<server name="server_serv" started="true" hostAddress="192.168.1.70" hostPort="6000" ipChannelType="0" acceptAnonymousConnections="false" maxConcurrentConnectionsCount="0" extraHostAddresseSize="0">
+		<associations>
+			<string value="client_ass"/>
+		</associations>
+	</server>
+</servers>
+<associations>
+	<name value="ss7_ass"/>
+	<association name="ss7_ass" assoctype="CLIENT" hostAddress="192.168.1.70" hostPort="8000" peerAddress="192.168.1.70" peerPort="8010" serverName="" ipChannelType="0" extraHostAddresseSize="0"/>
+	<name value="client_ass"/>
+	<association name="client_ass" assoctype="SERVER" hostAddress="" hostPort="0" peerAddress="192.168.1.56" peerPort="6010" serverName="server_serv" ipChannelType="0" extraHostAddresseSize="0"/>
+</associations>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<connectdelay value="5000"/>
+<servers>
+	<server name="serv1" started="false" hostAddress="127.0.0.1" hostPort="8012" ipChannelType="0" acceptAnonymousConnections="false" maxConcurrentConnectionsCount="0" extraHostAddresseSize="0">
+		<associations>
+			<string value="ass1"/>
+		</associations>
+	</server>
+	<server name="smsc_gw" started="true" hostAddress="192.168.1.56" hostPort="9000" ipChannelType="0" acceptAnonymousConnections="false" maxConcurrentConnectionsCount="0" extraHostAddresseSize="0">
+		<associations>
+			<string value="ass_1"/>
+		</associations>
+	</server>
+</servers>
+<associations>
+	<name value="ass1"/>
+	<association name="ass1" assoctype="SERVER" hostAddress="" hostPort="0" peerAddress="127.0.0.1" peerPort="8011" serverName="serv1" ipChannelType="0" extraHostAddresseSize="0"/>
+	<name value="ass_1"/>
+	<association name="ass_1" assoctype="SERVER" hostAddress="" hostPort="0" peerAddress="192.168.1.56" peerPort="9010" serverName="smsc_gw" ipChannelType="0" extraHostAddresseSize="0"/>
+	<name value="ass_2"/>
+	<association name="ass_2" assoctype="CLIENT" hostAddress="192.168.1.56" hostPort="6010" peerAddress="192.168.1.70" peerPort="6000" serverName="" ipChannelType="0" extraHostAddresseSize="0"/>
+</associations>

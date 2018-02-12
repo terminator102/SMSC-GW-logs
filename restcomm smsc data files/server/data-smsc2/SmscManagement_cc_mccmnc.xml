@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CcMccmncCollection>
+	<ccMccmncList>
+		<ccMccmnc countryCode="1234" mccMnc="555668" smsc="22221"/>
+	</ccMccmncList>
+</CcMccmncCollection>
